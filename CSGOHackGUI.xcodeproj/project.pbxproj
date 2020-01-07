@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56F5D8989A99FA4272E22C69 /* Pods_CSGOHackGUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BD4C28C898D1991D91EE6 /* Pods_CSGOHackGUI.framework */; };
+		BB0B503B230B15DA009A6F86 /* AimHackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0B503A230B15DA009A6F86 /* AimHackViewController.swift */; };
+		BB41E6822305D2670078ECDF /* MiscViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB41E6812305D2670078ECDF /* MiscViewController.swift */; };
+		BB41E6842305D3220078ECDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB41E6832305D3220078ECDF /* LaunchScreen.storyboard */; };
+		BB41E6862305DF640078ECDF /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB41E6852305DF640078ECDF /* ConnectionViewController.swift */; };
+		BB41E6882305E0940078ECDF /* ConnectionObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB41E6872305E0940078ECDF /* ConnectionObj.swift */; };
+		BB41E68A2305E6760078ECDF /* FeatureC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB41E6892305E6760078ECDF /* FeatureC.swift */; };
+		BBA8C94123058CE300E6A724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA8C94023058CE300E6A724 /* AppDelegate.swift */; };
+		BBA8C94323058CE300E6A724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA8C94223058CE300E6A724 /* ViewController.swift */; };
+		BBA8C94823058CE400E6A724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA8C94723058CE400E6A724 /* Assets.xcassets */; };
+		BBA8C953230597DF00E6A724 /* WallHackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA8C952230597DF00E6A724 /* WallHackViewController.swift */; };
+		BBA8C95523059A7500E6A724 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA8C95423059A7500E6A724 /* MainNavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07A05F1EA0E511F3BAFF7843 /* Pods-CSGOHackGUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSGOHackGUI.release.xcconfig"; path = "Target Support Files/Pods-CSGOHackGUI/Pods-CSGOHackGUI.release.xcconfig"; sourceTree = "<group>"; };
+		25D724B6D7D9D369A2256E8B /* Pods-CSGOHackGUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSGOHackGUI.debug.xcconfig"; path = "Target Support Files/Pods-CSGOHackGUI/Pods-CSGOHackGUI.debug.xcconfig"; sourceTree = "<group>"; };
+		BB0B503A230B15DA009A6F86 /* AimHackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AimHackViewController.swift; sourceTree = "<group>"; };
+		BB41E6812305D2670078ECDF /* MiscViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscViewController.swift; sourceTree = "<group>"; };
+		BB41E6832305D3220078ECDF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB41E6852305DF640078ECDF /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		BB41E6872305E0940078ECDF /* ConnectionObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionObj.swift; sourceTree = "<group>"; };
+		BB41E6892305E6760078ECDF /* FeatureC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureC.swift; sourceTree = "<group>"; };
+		BBA8C93D23058CE300E6A724 /* CSGOHackGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSGOHackGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA8C94023058CE300E6A724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBA8C94223058CE300E6A724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBA8C94723058CE400E6A724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBA8C94C23058CE400E6A724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBA8C952230597DF00E6A724 /* WallHackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallHackViewController.swift; sourceTree = "<group>"; };
+		BBA8C95423059A7500E6A724 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		E76BD4C28C898D1991D91EE6 /* Pods_CSGOHackGUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSGOHackGUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBA8C93A23058CE300E6A724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F5D8989A99FA4272E22C69 /* Pods_CSGOHackGUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67B9A1AF9E6B1B7B6690FD90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25D724B6D7D9D369A2256E8B /* Pods-CSGOHackGUI.debug.xcconfig */,
+				07A05F1EA0E511F3BAFF7843 /* Pods-CSGOHackGUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AEC72E378AF1BA1A3D1BC5CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E76BD4C28C898D1991D91EE6 /* Pods_CSGOHackGUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBA8C93423058CE300E6A724 = {
+			isa = PBXGroup;
+			children = (
+				BBA8C93F23058CE300E6A724 /* CSGOHackGUI */,
+				BBA8C93E23058CE300E6A724 /* Products */,
+				67B9A1AF9E6B1B7B6690FD90 /* Pods */,
+				AEC72E378AF1BA1A3D1BC5CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBA8C93E23058CE300E6A724 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBA8C93D23058CE300E6A724 /* CSGOHackGUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBA8C93F23058CE300E6A724 /* CSGOHackGUI */ = {
+			isa = PBXGroup;
+			children = (
+				BBA8C94023058CE300E6A724 /* AppDelegate.swift */,
+				BBA8C94223058CE300E6A724 /* ViewController.swift */,
+				BBA8C94723058CE400E6A724 /* Assets.xcassets */,
+				BBA8C94C23058CE400E6A724 /* Info.plist */,
+				BBA8C952230597DF00E6A724 /* WallHackViewController.swift */,
+				BBA8C95423059A7500E6A724 /* MainNavigationController.swift */,
+				BB41E6812305D2670078ECDF /* MiscViewController.swift */,
+				BB41E6832305D3220078ECDF /* LaunchScreen.storyboard */,
+				BB41E6852305DF640078ECDF /* ConnectionViewController.swift */,
+				BB41E6872305E0940078ECDF /* ConnectionObj.swift */,
+				BB41E6892305E6760078ECDF /* FeatureC.swift */,
+				BB0B503A230B15DA009A6F86 /* AimHackViewController.swift */,
+			);
+			path = CSGOHackGUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBA8C93C23058CE300E6A724 /* CSGOHackGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA8C94F23058CE400E6A724 /* Build configuration list for PBXNativeTarget "CSGOHackGUI" */;
+			buildPhases = (
+				EEB5BD6639BF59D51A37734F /* [CP] Check Pods Manifest.lock */,
+				BBA8C93923058CE300E6A724 /* Sources */,
+				BBA8C93A23058CE300E6A724 /* Frameworks */,
+				BBA8C93B23058CE300E6A724 /* Resources */,
+				AE16027080388FC7A4E9424F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSGOHackGUI;
+			productName = CSGOHackGUI;
+			productReference = BBA8C93D23058CE300E6A724 /* CSGOHackGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBA8C93523058CE300E6A724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kaan Uyumaz";
+				TargetAttributes = {
+					BBA8C93C23058CE300E6A724 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BBA8C93823058CE300E6A724 /* Build configuration list for PBXProject "CSGOHackGUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBA8C93423058CE300E6A724;
+			productRefGroup = BBA8C93E23058CE300E6A724 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBA8C93C23058CE300E6A724 /* CSGOHackGUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBA8C93B23058CE300E6A724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA8C94823058CE400E6A724 /* Assets.xcassets in Resources */,
+				BB41E6842305D3220078ECDF /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE16027080388FC7A4E9424F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSGOHackGUI/Pods-CSGOHackGUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CSGOHackGUI/Pods-CSGOHackGUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CSGOHackGUI/Pods-CSGOHackGUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB5BD6639BF59D51A37734F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSGOHackGUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBA8C93923058CE300E6A724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB41E68A2305E6760078ECDF /* FeatureC.swift in Sources */,
+				BB41E6882305E0940078ECDF /* ConnectionObj.swift in Sources */,
+				BBA8C953230597DF00E6A724 /* WallHackViewController.swift in Sources */,
+				BBA8C94323058CE300E6A724 /* ViewController.swift in Sources */,
+				BB41E6862305DF640078ECDF /* ConnectionViewController.swift in Sources */,
+				BB0B503B230B15DA009A6F86 /* AimHackViewController.swift in Sources */,
+				BBA8C95523059A7500E6A724 /* MainNavigationController.swift in Sources */,
+				BBA8C94123058CE300E6A724 /* AppDelegate.swift in Sources */,
+				BB41E6822305D2670078ECDF /* MiscViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BBA8C94D23058CE400E6A724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBA8C94E23058CE400E6A724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBA8C95023058CE400E6A724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D724B6D7D9D369A2256E8B /* Pods-CSGOHackGUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B84L9KE88W;
+				INFOPLIST_FILE = CSGOHackGUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soloworks.CSGOHackGUI.CSGOHackGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBA8C95123058CE400E6A724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A05F1EA0E511F3BAFF7843 /* Pods-CSGOHackGUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B84L9KE88W;
+				INFOPLIST_FILE = CSGOHackGUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soloworks.CSGOHackGUI.CSGOHackGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBA8C93823058CE300E6A724 /* Build configuration list for PBXProject "CSGOHackGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA8C94D23058CE400E6A724 /* Debug */,
+				BBA8C94E23058CE400E6A724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBA8C94F23058CE400E6A724 /* Build configuration list for PBXNativeTarget "CSGOHackGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBA8C95023058CE400E6A724 /* Debug */,
+				BBA8C95123058CE400E6A724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBA8C93523058CE300E6A724 /* Project object */;
+}
