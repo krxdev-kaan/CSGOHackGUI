@@ -9,4 +9,4 @@ I discontinued the AqHax-CSGO because i became uninterested in such project but 
 # Credits
 
 - Thanks to @joncardasis for it's awesome Pod for swift ! [ChromaColorPicker](https://github.com/joncardasis/ChromaColorPicker/)
-- Thanks to @swiftsocket also for it's awesome Pod for switft ! [SwiftSocket](https://github.com/swiftsocket/SwiftSocket)
+- Thanks to @swiftsocket also for it's awesome Pod for swift ! [SwiftSocket](https://github.com/swiftsocket/SwiftSocket)
