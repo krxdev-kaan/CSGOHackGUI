@@ -91,4 +91,5 @@ iOSInjectionProject/
 
 # Personal excludes
 *.DS_store
+*.lock
 Pods/
