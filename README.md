@@ -6,7 +6,7 @@ CSGOHackGUI is the IOS Client made for [AqHax-CSGO](https://github.com/krxdev-ka
 
 I discontinued the AqHax-CSGO because i became uninterested in such project but i became interested again and i'm making my way back to CSGO Hacking once again.
 
-### Notes
+## Notes
 
 - Please use .xcworkspace instead since there is usage for Pods.
 
