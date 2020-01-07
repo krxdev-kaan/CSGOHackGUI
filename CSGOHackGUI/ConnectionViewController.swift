@@ -90,6 +90,7 @@ class ConnectionViewController : UIViewController
                 print("message sent to server")
                 tabBarController?.tabBar.items![1].isEnabled = true
                 tabBarController?.tabBar.items![2].isEnabled = true
+                tabBarController?.tabBar.items![3].isEnabled = true
                 (self.navigationController as! MainNavigationController).label.layer.backgroundColor = UIColor.green.cgColor
                 break
                 

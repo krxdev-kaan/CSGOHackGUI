@@ -49,9 +49,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         miscNav.viewControllers = [miscVC]
         
         tabBarCont.viewControllers = [connectionNav, wallNav, aimNav, miscNav]
-//        tabBarCont.tabBar.items![1].isEnabled = false
-//        tabBarCont.tabBar.items![2].isEnabled = false
-//        tabBarCont.tabBar.items![3].isEnabled = false
+        tabBarCont.tabBar.items![1].isEnabled = false
+        tabBarCont.tabBar.items![2].isEnabled = false
+        tabBarCont.tabBar.items![3].isEnabled = false
         
         let gl = CAGradientLayer()
         gl.colors = [UIColor.white.cgColor, UIColor(red: 66/255, green: 87/255, blue: 87/255, alpha: 1).cgColor]
