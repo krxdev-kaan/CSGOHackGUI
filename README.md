@@ -12,7 +12,7 @@ Launch [AqHax-CSGO](https://github.com/krxdev-kaan/AqHax-CSGO/) on your computer
 
 ## Why did it take so long ?
 
-I discontinued the AqHax-CSGO because i became uninterested in such project but i became interested again and i'm making my way back to CSGO Hacking once again.
+I discontinued the AqHax-CSGO project because i became uninterested over time in such project but i became interested again and i'm making my way back to CSGO Hacking once again.
 
 ## Notes
 
