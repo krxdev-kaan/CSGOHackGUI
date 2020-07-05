@@ -3,7 +3,7 @@
 CSGOHackGUI is the IOS Client made for [AqHax-CSGO](https://github.com/krxdev-kaan/AqHax-CSGO/).
 
 ## How to use it ?
-It's pretty straight forward actually. Just compile and install the app on your phone.
+It's pretty straight forward actually. Just compile and install the app on your phone. (Or create an issue so i can send you a Prebuilt IPA)
 Launch [AqHax-CSGO](https://github.com/krxdev-kaan/AqHax-CSGO/) on your computer and enter the IP that you got from AqHax-CSGO and you should be good to go.
 
 ### Supported Devices
